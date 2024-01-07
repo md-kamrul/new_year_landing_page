@@ -18,14 +18,16 @@
 }
 
 /* banner section style */
-.banner {
+.banner,
+.welcome_banner {
     width: 90%;
     height: 600px;
     margin: 20px auto;
-    border-radius: 16px;background: linear-gradient(180deg, #070211, #07021100), url('./images/Banner\ Image.png');
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211, #07021100), url('./images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .banner .banner_text {
@@ -81,4 +83,66 @@
     width: 56%;
     height: auto;
     margin-bottom: 120px;
+}
+
+/* welcome banner section styles */
+.welcome_banner {
+    background: linear-gradient(90deg, #070211, #07021700), url('./images/Vectorrr.png');
+    background-size: 100% 100%;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.welcome_banner .text_section {
+    width: 720px;
+}
+
+.welcome_banner .text_section h2,
+.welcome_banner .text_section p {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 84px;
+    letter-spacing: 2px;
+    padding-top: 118px;
+    padding-left: 118px;
+}
+
+.welcome_banner .text_section p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+input {
+    background-color: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    margin-left: 118px;
+    border: none;
+    border-radius: 16px;
+}
+
+input:hover{
+    background-color: rgba(255, 0, 0, 0);
+    color: #F00;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 30px;
+    margin-left: 118px;
+    border: 2px solid #F00;
+}
+
+.welcome_banner .img_section {
+    width: 255px;
+    height: 400px;
+    padding: 70px 165px 70px 95px;
 }
