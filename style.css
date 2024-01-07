@@ -9,21 +9,20 @@
     padding: 0;
 }
 
-.primary_font{
+.primary_font {
     font-family: Merriweather;
 }
 
-.secondary_font{
+.secondary_font {
     font-family: Inter;
 }
 
-/* banner style */
+/* banner section style */
 .banner {
     width: 90%;
     height: 600px;
     margin: 20px auto;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211, #07021100), url('./images/Banner\ Image.png');
+    border-radius: 16px;background: linear-gradient(180deg, #070211, #07021100), url('./images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -45,4 +44,41 @@
     font-size: 72px;
     font-weight: 900;
     padding: 0px 280px;
+}
+
+/* sales_announcement section style */
+.sales_announcement {
+    width: 90%;
+}
+
+.sales_announcement .sales_percent {
+    margin-top: 120px;
+    padding: 0px auto;
+    text-align: center;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.sales_announcement p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 48px;
+    margin-bottom: 16px;
+}
+
+.sales_announcement h4 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.sales_announcement img {
+    width: 56%;
+    height: auto;
+    margin-bottom: 120px;
 }
