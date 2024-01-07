@@ -162,6 +162,10 @@ input:hover {
     margin-bottom: 120px;
 }
 
+.party_details p:first-child {
+    padding-top: 100px;
+}
+
 .party_details p span {
     color: #F00;
 }
