@@ -285,6 +285,7 @@ input:hover {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
+    margin-bottom: 120px;
 }
 
 .offer_details .offer_details_img :first-child {
