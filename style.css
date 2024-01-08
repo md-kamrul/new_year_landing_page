@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+::selection{
+    background: yellow;
+}
+
 .primary_font {
     font-family: Merriweather;
 }
@@ -406,9 +410,9 @@ input:hover {
 }
 
 .newletter .subscribe_input #subscribe_email {
-    width: 600px;
+    width: 389px;
     height: 60px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background-color: #FFF;
     justify-content: center;
     text-align: left;
@@ -423,17 +427,18 @@ input:hover {
 }
 
 .newletter .subscribe_input #subscribe_submit {
-    width: 210px;
-    height: 90px;
+    width: 211px;
+    height: 100%;
     border-radius: 0px 50px 50px 0px;
     background-color: #F00;
     position: absolute;
-    right: 14%;
+    left: 69%;
 }
 
 .newletter .subscribe_input #subscribe_submit:hover {
-    background-color: rgba(255, 0, 0, 0.534);
-    color: #FFF;
+    border: 2px solid #F00;
+    background-color: rgba(255, 0, 0, 0.404);
+    color: #F00;
 }
 
 /* footer section styles */
