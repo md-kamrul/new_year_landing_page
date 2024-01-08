@@ -360,11 +360,12 @@ input:hover {
 /* newsletter section styles */
 .newletter {
     width: 90%;
-    height: auto;
-    margin: 0px auto;
+    height: 616px;
+    margin: 0px auto 120px;
     border-radius: 16px;
     background-color: #ff00000d;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .newletter img {
@@ -387,4 +388,44 @@ input:hover {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    padding-top: 22px;
+    margin-bottom: 48px;
+}
+
+.newletter .subscribe_input {
+    display: flex;
+    position: absolute;
+    padding-bottom: 200px;
+    padding: 0px 150px;
+}
+
+.newletter .subscribe_input #subscribe_email {
+    width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #FFF;
+    justify-content: center;
+    text-align: left;
+    color: #070211;
+}
+
+.newletter .subscribe_input #subscribe_email ::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newletter .subscribe_input #subscribe_submit {
+    width: 210px;
+    height: 90px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #F00;
+    position: absolute;
+    right: 14%;
+}
+
+.newletter .subscribe_input #subscribe_submit:hover {
+    background-color: rgba(255, 0, 0, 0.534);
+    color: #FFF;
 }
