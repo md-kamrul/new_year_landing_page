@@ -279,6 +279,7 @@ input:hover {
     line-height: 32px;
 }
 .offer_details .offer_details_img {
+    height: 600px;
     display: flex;
     background-image: url(./images/Rectangle\ 2.png);
     background-repeat: no-repeat;
@@ -295,6 +296,7 @@ input:hover {
     height: 400px;
     position: absolute;
     right: 5%;
+    padding-bottom: 10%;
 }
 .offer_details .offer_details_img :last-child {
     width: 200px;
