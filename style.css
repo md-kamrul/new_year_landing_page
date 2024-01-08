@@ -521,7 +521,12 @@ footer .down h4:first-child {
     text-align: left;
 }
 
-footer .down h4:last-child {
+footer .down h4 a {
+    color: #FFF;
     position: absolute;
     right: 11%;
+}
+
+footer .down h4 a:hover {
+    color: rgba(255, 0, 0, 0.329);
 }
