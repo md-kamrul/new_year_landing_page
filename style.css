@@ -17,6 +17,10 @@
     font-family: Inter;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* banner section style */
 .banner,
 .welcome_banner {
@@ -263,6 +267,7 @@ input:hover {
     font-size: 72px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 28px;
 }
 
 .offer_details h2 span {
@@ -277,6 +282,7 @@ input:hover {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    margin-bottom: 64px;
 }
 
 .offer_details .offer_details_img {
@@ -439,7 +445,7 @@ footer {
 
 footer .up {
     display: flex;
-    margin-bottom: 50px;
+    margin: 0px auto 50px;
 }
 
 footer .up .address {
@@ -451,6 +457,14 @@ footer .up .address {
     line-height: 40px;
     padding-top: 120px;
     padding-left: 140px;
+    margin-right: 220px;
+}
+
+footer .up .contact_info {
+    padding-top: 120px;
+    padding-right: 140px;
+    position: absolute;
+    left: 69%;
 }
 
 footer .up .contact_info .call,
@@ -470,4 +484,44 @@ footer .up .contact_info .call img,
 footer .up .contact_info .web img {
     width: 24px;
     height: 24px;
+    padding-right: 16px;
+}
+
+footer hr {
+    width: 78%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+footer .middle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer .middle img {
+    width: 64px;
+    height: 64px;
+    padding-right: 24px;
+}
+
+footer .down {
+    width: 78%;
+    margin: 0px auto;
+}
+
+footer .down h4 {
+    color: #FFF;
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+footer .down h4:first-child {
+    text-align: left;
+}
+
+footer .down h4:last-child {
+    position: absolute;
+    right: 11%;
 }
